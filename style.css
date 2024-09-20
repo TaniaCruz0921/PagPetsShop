@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+marquee {
+    font-family: "Oswald", sans-serif;
+    color: #4DAABB;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hsl(189, 88%, 47%);
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    margin: 20px;
+}
+
+header img {
+    border-radius: 1rem;
+    width: 150px;
+    margin: 10px 10px 10px 10px;
+}
+
+header h1 {
+    font-size: 34px;
+    color: white;
+    font-family: "Seymour One", sans-serif;
+}
+
+header p {
+    font-size: 26px;
+    color: white;
+    font-family: "Seymour One", sans-serif;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px 20px 0px;
+    border-radius: 1rem;
+    height: 20rem;
+    gap: 1rem;
+}
+
+.registro {
+    background-color: #4DAABB;
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+    border-radius: 1rem;
+
+}
+
+.registro img {
+    width: 150;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10%;
+    width: 199px;
+    height: 199px;
+}
+
+.field {
+    margin-bottom: 10px;
+}
+
+.field label {
+    display: block;
+    font-size: 12px;
+    color: #777;
+}
+
+.field input {
+    display: block;
+    min-width: 250px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 14px;
+    background-color: #4460AA;
+    color: #fff;
+    border: none
+}
+
+body {
+    background-color: #FFF9FF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='66' height='66' viewBox='0 0 90 90'%3E%3Ccircle fill-opacity='0.6' fill='%234DAABB' cx='45' cy='45' r='9'/%3E%3Cg fill='%23B94110' fill-opacity='0.6'%3E%3Ccircle cx='0' cy='90' r='9'/%3E%3Ccircle cx='90' cy='90' r='9'/%3E%3Ccircle cx='90' cy='0' r='9'/%3E%3Ccircle cx='0' cy='0' r='9'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.presentacion {
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: column;
+    align-items: center;
+    background: #4DAABB;
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+}
+
+.presentacion h1 {
+    font-size: 35px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.presentacion p {
+    width: 60%;
+    font-size: 26px;
+    padding: 10px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#nosotros {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nosotros iframe {
+    padding: 10px;
+    margin: 10px;
+}
+
+.contenedor {
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+    background-color: #4DAABB;
+}
+
+
+.caja {
+    background-color: #4DAABB;
+    width: 100%;
+    height: 60%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.caja img {
+    width: 150;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10%;
+    width: 199px;
+    height: 199px;
+}
+
+
+footer p {
+    font-size: 20px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.galery {
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+}
+
+.galery div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.galery>div:hover {
+    flex: 5;
+
+}
+
